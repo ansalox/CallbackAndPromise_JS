@@ -12,13 +12,13 @@ apellidos();
 
 //Prueba 2 - Usando setTime out y recibiendo un Undefined
 
-const nombres = () => {
+const nombres2 = () => {
   setTimeout(function () {
     alert("tu nombre es Pepe");
   }, 2000);
 };
 
-const apellidos = () => {
+const apellidos2 = () => {
   alert("tu apellido es Perez");
 };
 
@@ -27,13 +27,13 @@ apellidos();
 
 //Prueba 3 - Usando Callback
 
-const nombres = (fn) => {
+const nombres3 = (fn) => {
   setTimeout(function () {
     alert("tu nombre es Pepe");
     fn();
   }, 2000);
 };
-const apellidos = () => {
+const apellidos3 = () => {
   alert("tu apellido es Perez");
 };
 
